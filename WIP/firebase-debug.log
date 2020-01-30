@@ -1,0 +1,152 @@
+[debug] [2020-01-29T18:50:03.991Z] ----------------------------------------------------------------------
+[debug] [2020-01-29T18:50:03.995Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\maugust2022638\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-01-29T18:50:03.995Z] CLI Version:   7.12.1
+[debug] [2020-01-29T18:50:03.995Z] Platform:      win32
+[debug] [2020-01-29T18:50:03.996Z] Node Version:  v12.13.1
+[debug] [2020-01-29T18:50:03.998Z] Time:          Wed Jan 29 2020 13:50:03 GMT-0500 (Eastern Standard Time)
+[debug] [2020-01-29T18:50:03.998Z] ----------------------------------------------------------------------
+[debug] [2020-01-29T18:50:03.998Z] 
+[debug] [2020-01-29T18:50:04.020Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-29T18:50:04.022Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\maugust2022638\Desktop\Scripts\firebase
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-01-29T18:51:18.599Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-01-29T18:51:18.600Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-01-29T18:51:18.722Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-29T18:51:18.750Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-01-29T18:51:19.910Z] <<< HTTP RESPONSE 200
+[info] i  Using project sql-test-server-f03a9 (mayobase)
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2020-01-29T18:51:38.210Z] >>> HTTP REQUEST GET https://sql-test-server-f03a9.firebaseio.com/.settings/rules.json  
+ 
+[debug] [2020-01-29T18:51:38.395Z] Error: self signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1321:34)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:475:20)
+    at TLSSocket._finishInit (_tls_wrap.js:794:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:608:12)
+[error] 
+[error] Error: Server Error. self signed certificate in certificate chain
+[debug] [2020-01-30T15:43:08.226Z] ----------------------------------------------------------------------
+[debug] [2020-01-30T15:43:08.236Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\maugust2022638\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-01-30T15:43:08.237Z] CLI Version:   7.12.1
+[debug] [2020-01-30T15:43:08.237Z] Platform:      win32
+[debug] [2020-01-30T15:43:08.237Z] Node Version:  v12.13.1
+[debug] [2020-01-30T15:43:08.273Z] Time:          Thu Jan 30 2020 10:43:08 GMT-0500 (Eastern Standard Time)
+[debug] [2020-01-30T15:43:08.274Z] ----------------------------------------------------------------------
+[debug] [2020-01-30T15:43:08.274Z] 
+[debug] [2020-01-30T15:43:08.337Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-30T15:43:08.339Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\maugust2022638\Desktop\Scripts\firebase
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-01-30T15:43:53.400Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-01-30T15:43:53.401Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-01-30T15:43:53.588Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-30T15:43:53.617Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-01-30T15:43:53.885Z] <<< HTTP RESPONSE 200
+[info] i  Using project integrated-services-1996 (Integrated services)
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2020-01-30T15:44:03.033Z] >>> HTTP REQUEST GET https://integrated-services-1996.firebaseio.com/.settings/rules.json  
+ 
+[debug] [2020-01-30T15:44:03.259Z] Error: self signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1321:34)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:475:20)
+    at TLSSocket._finishInit (_tls_wrap.js:794:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:608:12)
+[error] 
+[error] Error: Server Error. self signed certificate in certificate chain
+[debug] [2020-01-30T15:46:08.004Z] ----------------------------------------------------------------------
+[debug] [2020-01-30T15:46:08.008Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\maugust2022638\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-01-30T15:46:08.009Z] CLI Version:   7.12.1
+[debug] [2020-01-30T15:46:08.009Z] Platform:      win32
+[debug] [2020-01-30T15:46:08.009Z] Node Version:  v12.13.1
+[debug] [2020-01-30T15:46:08.030Z] Time:          Thu Jan 30 2020 10:46:08 GMT-0500 (Eastern Standard Time)
+[debug] [2020-01-30T15:46:08.030Z] ----------------------------------------------------------------------
+[debug] [2020-01-30T15:46:08.030Z] 
+[debug] [2020-01-30T15:46:08.059Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-30T15:46:08.060Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\maugust2022638\Desktop\Scripts\firebase
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-01-30T15:46:17.096Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-01-30T15:46:17.367Z] <<< HTTP RESPONSE 200
+[info] i  Using project integrated-services-1996 (Integrated services)
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2020-01-30T15:46:19.764Z] >>> HTTP REQUEST GET https://integrated-services-1996.firebaseio.com/.settings/rules.json  
+ 
+[debug] [2020-01-30T15:46:19.925Z] Error: self signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1321:34)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:475:20)
+    at TLSSocket._finishInit (_tls_wrap.js:794:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:608:12)
+[error] 
+[error] Error: Server Error. self signed certificate in certificate chain
