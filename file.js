@@ -38,7 +38,8 @@ function checker() {
 
 function creation() {
     dbs.set({
-        auth: data
+        auth: data,
+        unresolved: true
     }).then(() => {
         console.log("Successfully logged you may now close this window.");
         document.getElementById("display").innerHTML = "Success You May Now Close This Window.";
