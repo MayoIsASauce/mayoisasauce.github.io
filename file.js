@@ -9,6 +9,8 @@ var firebaseConfig = {
     measurementId: "G-2CZW1GQ76H"
 };
 firebase.initializeApp(firebaseConfig);
+firebase.auth().signInAnonymously().catch((err)=>{console.log(err.message)});
+
 firebase.analytics();
 var db = firebase.firestore();
 
