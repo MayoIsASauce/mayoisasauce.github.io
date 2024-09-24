@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "DMSans";
+    src: url("fonts/DMSans.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Inconsolata";
+    src: url(fonts/Inconsolata.ttf) format("truetype");
+}
+
+#main_h {
+    margin-top: auto;
+    transform: translate(24vw, -30vh);
+    padding-right: 3vw;
+    padding-left: 3vw;
+    width: max-content;
+    background-color: #EAEFBD;
+    padding-bottom: 3vh;
+}
+
+#headline {
+    font-family: "DMSans";
+    color: #EA9010;
+    text-align: center;
+    font-size: 13vh;
+    margin-bottom: 0px;
+}
+
+#titles_h {
+    color: #EA9010;
+    font-weight: bolder;
+    text-align: center;
+    font-family: "Inconsolata";
+}
+
+#quote {
+    color: #EA9010;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10vh;
+    font-size: 120%;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
+.t {
+    margin-right: 5pxpx;
+    padding-left: 10px;
+}
+.tel {
+    border-left: #EAC067 3px solid;
+}
+.ti {
+    border-left: #EAC067 3px solid;
+}
+.ter {
+    border-left: #EAC067 3px solid;
+    border-right: #EAC067 3px solid;
+    padding-right: 8px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    border: #EA9010 10px solid;
+    border-style: ridge;
+    padding-bottom: 64.32px;
+}
+
+a {
+    color: #EA9010;
+}
