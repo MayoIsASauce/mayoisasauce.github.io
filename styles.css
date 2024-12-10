@@ -8,22 +8,33 @@
     src: url(fonts/Inconsolata.ttf) format("truetype");
 }
 
+body {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+
 #main_h {
-    margin-top: auto;
-    transform: translate(24vw, -30vh);
-    padding-right: 3vw;
-    padding-left: 3vw;
-    width: max-content;
+    display: flex;
+    flex-direction: column;
     background-color: #EAEFBD;
-    padding-bottom: 3vh;
+    border: #EA9010 10px solid;
+    border-style: ridge;
+
+    padding: 20px;
+
+    width: fit-content;
+    height: fit-content;
 }
 
 #headline {
     font-family: "DMSans";
     color: #EA9010;
     text-align: center;
-    font-size: 13vh;
-    margin-bottom: 0px;
+    font-size: clamp(14px, 4vw, 4.5vw);
 }
 
 #titles_h {
@@ -31,6 +42,9 @@
     font-weight: bolder;
     text-align: center;
     font-family: "Inconsolata";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #quote {
@@ -38,7 +52,7 @@
     text-align: center;
     margin-top: 0px;
     margin-bottom: 10vh;
-    font-size: 120%;
+    font-size: clamp(13px, 2vw, 2.5vw);
 }
 
 #background-video {
@@ -54,7 +68,7 @@
  }
 
 .t {
-    margin-right: 5pxpx;
+    margin-right: 5px;
     padding-left: 10px;
 }
 .tel {
@@ -79,17 +93,8 @@
     user-select: none;
 }
 
-body, html {
+html {
     height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    border: #EA9010 10px solid;
-    border-style: ridge;
-    padding-bottom: 64.32px;
 }
 
 a {
