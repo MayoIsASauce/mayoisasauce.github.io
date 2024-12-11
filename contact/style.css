@@ -4,3 +4,12 @@
     display: flex;
     justify-content: center;
 }
+
+#back-arrow {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    cursor: pointer;
+    padding: 10px;
+}
