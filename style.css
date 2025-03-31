@@ -93,6 +93,64 @@ body {
     user-select: none;
 }
 
+.LI-profile-badge {
+    position: fixed;
+    bottom: 0;
+    right: -50px;
+    z-index: 10;
+}
+
+.close-button {
+    position: absolute;
+    bottom: 225px;
+    right: 20px;
+    background-color: rgba(255, 90, 90, 0.37);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1000;
+    display: none;
+
+    font-family: monospace;
+    font-weight: bold;
+}
+
+@keyframes shake-on-load {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+}
+
+.LI-profile-badge.loaded {
+    animation: shake-on-load 0.5s ease-in-out;
+}
+
+.close-button.loaded {
+    animation: fade-in 0.5s ease-in-out;
+    display: block;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 html {
     height: 100%;
 }

@@ -22,7 +22,37 @@
         </div>
 
         <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="mattaugust03" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/mattaugust03?trk=profile-badge"></a></div>
-              
+            <div class="close-button" onclick="fadeOutBadge()">x</div>
+            <script>
+                
+                window.addEventListener('load', () => {
+                    const badge = document.querySelector('.LI-profile-badge');
+                    const closeButton = document.querySelector('.close-button');
+                    if (badge && closeButton) {
+                        badge.classList.add('loaded');
+                        setTimeout(() => {
+                            const closeButton = document.querySelector('.close-button');
+                            if (closeButton) {
+                                closeButton.classList.add('loaded');
+                            }
+                        }, 500);
+                    }
+                });
+            </script>
+            <script>
+                function fadeOutBadge() {
+                    const badge = document.querySelector('.badge-base');
+                    const closeButton = document.querySelector('.close-button');
+                    badge.style.transition = 'opacity 0.5s';
+                    closeButton.style.transition = 'opacity 0.5s';
+                    badge.style.opacity = '0';
+                    closeButton.style.opacity = '0';
+                    setTimeout(() => {
+                        badge.style.display = 'none';
+                        closeButton.style.display = 'none';
+                    }, 500);
+                }
+            </script>
     </body>
 
     <footer>
